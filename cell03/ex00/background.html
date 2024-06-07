@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="background1.css">
+<title>Background</title>
+</head>
+<body>
+
+    <button  id="Change">Clique em mim</button>
+
+
+    <script>
+
+      function getRandomColor() {
+      const letters = '0123456789ABCDEF';
+      let color = '#';
+      for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+
+      return color;
+    }
+    
+
+   function changeBackgroundColor(){
+    document.body.style.backgroundColor = getRandomColor();
+   }
+
+   document.getElementById('Change').addEventListener('click', changeBackgroundColor);
+  
+
+    
+
+    
+    </script>
+ 
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 50%;
+}
+
+</style>
+
+<title>Balloon</title>
+</head>
+
+<body>
+
+   <div id="balão"></div>
+ 
+
+   <script>
+var div = document.getElementById('balão');
+var size = 200;
+var colors = ['red', 'green', 'blue'];
+var currentColorIndex = 0;
+
+div.addEventListener('click', function(){
+    size +=10;
+    currentColorIndex =(currentColorIndex + 1) % colors.length;
+    div.style.width = size + 'px';
+    div.style.height = size + 'px';
+    div.style.backgroundColor = colors [currentColorIndex];
+
+    if (size>=420) {
+        size = 200;
+        currentColorIndex= 0;
+        div.style.width = size + 'px';
+        div.style.height = size + 'px';
+        div.style.backgroundColor=colors[currentColorIndex];
+    }
+});
+
+div.addEventListener('mouseleave', function() {
+  if(size > 200) {
+   size -=5;
+   currentColorIndex = (currentColorIndex -1 + colors.length) % colors.length;
+   div.style.width = size + 'px';
+        div.style.height = size + 'px';
+        div.style.backgroundColor = colors [currentColorIndex];
+  }
+
+});
+
+
+
+
+
+
+
+
+
+
+   </script>
+</body>
+</html>

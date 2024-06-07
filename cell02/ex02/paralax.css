@@ -1,0 +1,45 @@
+.parallax {
+    background-image: url(https://images.wallpapersden.com/image/download/amazing-outer-space-4k-galaxy_bmVubWuUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 650px;
+     font-family: monospace;
+     font-size: large;
+     text-align: center; 
+     color:aliceblue;
+
+}
+
+.bloco {
+        background-color: rgb(8, 8, 8);
+        height: 500px;
+        font-family: monospace;
+        font-size: large;
+        text-align: center; 
+        color:aliceblue;
+
+}
+
+.imagem {
+                 
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ac0340c-7a81-4172-a13f-05e95f54cb33/d8x20up-e02a8cca-6b0b-4e0a-ab91-f37a6d7db067.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYzAzNDBjLTdhODEtNDE3Mi1hMTNmLTA1ZTk1ZjU0Y2IzM1wvZDh4MjB1cC1lMDJhOGNjYS02YjBiLTRlMGEtYWI5MS1mMzdhNmQ3ZGIwNjcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QiLocsRL2dii8D8BD2IYIqVRs7gG-LzO-WxMrt0q0DU);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    font-family: monospace;
+    font-size: large;
+    text-align:center;
+    color:aliceblue;
+    
+}
+
+body{
+
+background-color: black;
+}
+
+

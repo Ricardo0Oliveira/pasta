@@ -1,0 +1,73 @@
+
+body{
+  background-color: rgb(61, 61, 153);
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*posicionando os elementos */
+.menu ul li {
+  float: left;
+  position: relative;
+}
+
+/* para ajustar os elementos referenciado */
+.menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilo para o submenu dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/*Estilizando o conteudo do submenu*/
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Mostrar o submenu quando o item de menu é hover */
+.menu ul li:hover .dropdown-content {
+  display: block;
+}
+
+/*Estilizando o menu*/
+.icone{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  justify-content: space-between;
+  margin: 20px;
+
+
+}
+
+/*deixando no formato hamburguer */
+.icone span{
+display: block;
+height: 4px;
+background: #333;
+border-radius: 2px;
+
+/*escondendo a checkbox */
+}
+input {
+display: none;
+
+}
